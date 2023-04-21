@@ -8,6 +8,6 @@ if status is-interactive
     alias gbr="git branch"
     alias gps="git push"
     alias code="codium"
+    alias ll="exa --long --header"
 end
-
 
