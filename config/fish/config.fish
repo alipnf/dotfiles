@@ -6,6 +6,8 @@ if status is-interactive
     alias gcim="git commit -am"
     alias gco="git chekout"
     alias gbr="git branch"
+    alias gps="git push"
+    alias code="codium"
 end
 
 
