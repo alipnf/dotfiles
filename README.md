@@ -1,5 +1,7 @@
 # dotfiles
-dotfiles
+<b>Shell
+- Color Scheme
+    - [Gogh](https://gogh-co.github.io/Gogh/) -Breath Darker
 - Fish
     - [Fisher](https://github.com/jorgebucaran/fisher) - Plugin manager
     - [Tide](https://github.com/IlanCosman/tide) - Shell theme
