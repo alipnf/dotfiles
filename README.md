@@ -1,6 +1,6 @@
 # dotfiles
 dotfiles
-- [Fish]
+- Fish
     - [Fisher](https://github.com/jorgebucaran/fisher) - Plugin manager
     - [Tide](https://github.com/IlanCosman/tide) - Shell theme
     - [Nerd fonts](https://github.com/ryanoasis/nerd-fonts) - Hack 
