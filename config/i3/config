@@ -581,3 +581,6 @@ bindsym $mod+t exec rofi -show window \
 # Backlight
 bindsym XF86MonBrightnessUp exec brightnessctl -c backlight set +5%
 bindsym XF86MonBrightnessDown exec brightnessctl -c backlight set 5%-
+
+#polybar
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
