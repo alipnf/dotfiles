@@ -344,8 +344,6 @@ for_window [class=TelegramDesktop] focus
 # start using default config 
 #exec_always --no-startup-id picom -b
 #
-# for custom config:
-#exec_always --no-startup-id picom --config  ~/.config/picom.conf
 
 #############################################
 # autostart applications/services on login: #
@@ -584,3 +582,6 @@ bindsym XF86MonBrightnessDown exec brightnessctl -c backlight set 5%-
 
 #polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
+#picom
+exec_always --no-startup-id picom -b
