@@ -3,14 +3,13 @@
     - [i3](https://i3wm.org/)
 - Status bar
     - [Polybar](https://github.com/polybar/polybar)
-- Color Scheme
-    - [Gogh](https://gogh-co.github.io/Gogh/) - (Breath Silverfox)
 - Shell 
     - [Fish shell](https://fishshell.com/)
     - [Fisher](https://github.com/jorgebucaran/fisher) - Plugin manager
     - [Tide](https://github.com/IlanCosman/tide) - Shell theme
     - [Nerd fonts](https://github.com/ryanoasis/nerd-fonts) - (Hack) 
     - [z for fish](https://github.com/jethrokuan/z) - Directory jumping
+    - [Gogh](https://gogh-co.github.io/Gogh/) - Color Scheme (Breath Silverfox)
     - alias: <pre>g = git 
     gst= git status
     gci= git commit
