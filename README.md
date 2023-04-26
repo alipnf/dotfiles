@@ -1,4 +1,6 @@
 # dotfiles
+- Window Manager 
+    - [i3](https://i3wm.org/)
 - Status bar
     - [Polybar](https://github.com/polybar/polybar)
 - Color Scheme
