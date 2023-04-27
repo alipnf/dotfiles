@@ -2,7 +2,7 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
     alias g="git"
     alias gst="git status"
-    alias gci="git commit"
+    alias gci="git commit -m"
     alias gcim="git commit -am"
     alias gco="git chekout"
     alias gbr="git branch"
