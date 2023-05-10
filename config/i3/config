@@ -36,11 +36,11 @@ workspace_layout default
 
 # i3 stacking layout:
 # Each window will be fullscreen and tabbed top to bottom.
-#workspace_layout stacking
+# workspace_layout stacking
 
 # i3 tabbed layout:
 # Each new window will open fullscreen as a tab (left to right)
-#workspace_layout tabbed
+# workspace_layout tabbed
 
 ##############################
 # extra options for windows: #
@@ -306,14 +306,14 @@ set $ws10 "10"
 
 # bind program to workspace and focus to them on startup:
 assign [class="Xfce4-terminal"] $ws1
-assign [class="(?i)firefox"] $ws2
+# assign [class="(?i)firefox"] $ws2
 assign [class="Thunar"] $ws3
 assign [class="thunderbird"] $ws4
 assign [class="TelegramDesktop"] $ws5
 
 # automatic set focus new window if it opens on another workspace than the current:
 for_window [class=Xfce4-terminal] focus
-for_window [class=(?i)firefox] focus
+# for_window [class=(?i)firefox] focus
 for_window [class=Thunar] focus
 for_window [class=Thunderbird] focus
 for_window [class=TelegramDesktop] focus
