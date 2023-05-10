@@ -19,3 +19,6 @@
     gps= git push
     code= codium
     ll= exa --long --header -a
+- Text Editor
+    - [VSCodium](https://vscodium.com/)
+    - [Neovim](https://neovim.io/) - ([Lazyvim](https://www.lazyvim.org/))
