@@ -1,3 +1,7 @@
+<div align=center>
+  <img src='./asset/screenshot/dotfiles.png' alt='screenshot' />
+</div>
+
 # dotfiles
 - Window Manager 
     - [i3](https://i3wm.org/)
