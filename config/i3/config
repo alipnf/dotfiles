@@ -176,8 +176,6 @@ bindsym $mod+Return exec xfce4-terminal
 # kill focused window
 bindsym $mod+q kill
 
-# exit-menu
-bindsym $mod+Shift+e exec ~/.config/polybar/scripts/powermenu.sh
 
 # Lock the system
 # lock with a picture:
@@ -553,8 +551,6 @@ client.urgent		    	$urgentred	$urgentred	$white		$yellowbrown	$yellowbrown
 
 ## rofi bindings fancy application menu ($mod+d /F9 optional disabled)
 
-bindsym $mod+d exec rofi -modi drun -show drun \
-		-config ~/.config/rofi/rofidmenu.rasi
 
 #bindsym F9 exec rofi -modi drun -show drun \
 #		-config ~/.config/rofi/rofidmenu.rasi
@@ -582,6 +578,10 @@ bindsym XF86MonBrightnessDown exec brightnessctl -c backlight set 5%-
 
 #polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+bindsym $mod+Shift+e exec ~/.config/polybar/scripts/powermenu.sh
+bindsym $mod+d exec ~/.config/polybar/scripts/launcher.sh
+
+
 
 #picom
 exec_always --no-startup-id picom -b
