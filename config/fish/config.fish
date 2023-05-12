@@ -11,5 +11,6 @@ if status is-interactive
     alias code="codium"
     alias ll="exa --long --header -a"
     alias bl="sudo systemctl enable bluetooth.service"
+    alias wlan="networkmanager_dmenu"
 end
 
