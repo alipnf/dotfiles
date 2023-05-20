@@ -14,7 +14,10 @@
     - [Nerd fonts](https://github.com/ryanoasis/nerd-fonts) - (Hack) 
     - [z for fish](https://github.com/jethrokuan/z) - Directory jumping
     - [Gogh](https://gogh-co.github.io/Gogh/) - Color Scheme (Breath Silverfox)
-    - alias: <pre>g = git 
+    - alias: <pre>g = git
+    gf= git fetch
+    gp= git pull
+    ga= git add
     gst= git status
     gci= git commit
     gcim= git commit -am
