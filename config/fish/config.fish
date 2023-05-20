@@ -1,6 +1,8 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
     alias g="git"
+    alias gf="git fetch"
+    alias gp="git pull"
     alias ga="git add"
     alias gst="git status"
     alias gci="git commit -m"
@@ -13,4 +15,3 @@ if status is-interactive
     alias bl="sudo systemctl enable bluetooth.service"
     alias wlan="networkmanager_dmenu"
 end
-
