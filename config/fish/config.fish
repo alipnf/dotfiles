@@ -5,7 +5,7 @@ if status is-interactive
     alias gst="git status"
     alias gci="git commit -m"
     alias gcim="git commit -am"
-    alias gco="git chekout"
+    alias gco="git checkout"
     alias gbr="git branch"
     alias gps="git push"
     alias code="codium"
