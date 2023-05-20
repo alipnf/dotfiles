@@ -18,7 +18,7 @@
     gst= git status
     gci= git commit
     gcim= git commit -am
-    gco= git chekout
+    gco= git checkout
     gbr= git branch
     gps= git push
     code= codium
