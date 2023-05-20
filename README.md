@@ -1,5 +1,5 @@
 <div align=center>
-  <img src='./asset/screenshot/dotfiles.png' alt='screenshot' />
+  <img src='./asset/screenshot/screenshot.png' alt='screenshot' />
 </div>
 
 # dotfiles
