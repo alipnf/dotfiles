@@ -14,4 +14,5 @@ if status is-interactive
     alias ll="exa --long --header -a"
     alias bl="sudo systemctl enable bluetooth.service"
     alias wlan="networkmanager_dmenu"
+    alias v="nvim"
 end
