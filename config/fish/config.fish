@@ -15,5 +15,5 @@ if status is-interactive
     alias bl="sudo systemctl enable bluetooth.service"
     alias wlan="networkmanager_dmenu"
     alias v="nvim"
-    alias x="xampp"
+    alias sxs="sudo xampp start"
 end
