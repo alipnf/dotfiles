@@ -1,0 +1,3 @@
+return {
+  "manzeloth/live-server",
+}
