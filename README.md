@@ -28,4 +28,4 @@
     - [VSCodium](https://vscodium.com/)
     - [Neovim](https://neovim.io/) - ([Lazyvim](https://www.lazyvim.org/))
       custom plugin: <pre>[wakatime/vim-wakatime](https://github.com/wakatime/vim-wakatime) - Plugin wakatime.
-      [manzeloth/live-server](https://github.com/manzeloth/live-server) - Live server for vim
+      [barrett-ruth/live-server.nvim](https://github.com/barrett-ruth/live-server.nvim) - Live server for vim
