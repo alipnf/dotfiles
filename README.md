@@ -29,3 +29,4 @@
     - [Neovim](https://neovim.io/) - ([Lazyvim](https://www.lazyvim.org/))
       custom plugin: <pre>[wakatime/vim-wakatime](https://github.com/wakatime/vim-wakatime) - Plugin wakatime.
       [barrett-ruth/live-server.nvim](https://github.com/barrett-ruth/live-server.nvim) - Live server for vim
+      [mattn/emmet-vim](https://github.com/mattn/emmet-vim) - Emmet html & css 
