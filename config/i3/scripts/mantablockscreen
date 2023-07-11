@@ -1,4 +1,17 @@
-!/usr/bin/env bash
+#!/usr/bin/env bash
+
+PICTURE=/tmp/i3lock.png
+SCREENSHOT="scrot -z $PICTURE"
+
+BLUR="5x4"
+
+$SCREENSHOT
+convert $PICTURE -blur $BLUR $PICTURE
+
+fg_color=fefefeff
+wrong_color=f82a11aa
+highlight_color=39393999
+verif_color=fefefe66
 
 PICTURE=/tmp/i3lock.png
 SCREENSHOT="scrot -z $PICTURE"
@@ -27,4 +40,5 @@ i3lock -n --force-clock -i $PICTURE --ind-pos="w/2:h/2" --time-pos="w/2:h/2-5" -
 
 rm $PICTURE
 
-!/bin/env bash
+rm $PICTURE
+
