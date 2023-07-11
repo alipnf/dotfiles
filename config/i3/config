@@ -181,7 +181,8 @@ bindsym $mod+q kill
 # lock with a picture:
 #bindsym $mod+l exec i3lock -i  ~/.config/i3/i3-lock-screen.png -p default|win -t
 # lock by blurring the screen:
-bindsym $mod+z exec ~/.config/i3/scripts/blur-lock
+# bindsym $mod+z exec ~/.config/i3/scripts/blur-lock
+bindsym $mod+z exec ~/.config/i3/scripts/mantablockscreen
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
