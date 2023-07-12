@@ -12,6 +12,16 @@
   - [picom](https://aur.archlinux.org/packages/picom-git)
 - Lock screen
   - [mantablockscreen](https://github.com/reorr/mantablockscreen)
+- Screenshot
+  - [maim](https://github.com/naelstrof/maim)
+  - [xclip](https://archlinux.org/packages/extra/x86_64/xclip/)
+  - shortcut: <pre>PrtScrn = Full Screen
+    Shift + PrtScrn = Selection
+    Super + PrtScrn = Active Window
+    Ctrl + PrtScrn = Clipboard Full Screen
+    Ctrl + Shift + PrtScrn = Clipboard Selection
+    Ctrl + Super + PrtScrn = Clipboard Active Window
+-
 - Shell
   - [Fish shell](https://fishshell.com/)
   - [Fisher](https://github.com/jorgebucaran/fisher) - Plugin manager
