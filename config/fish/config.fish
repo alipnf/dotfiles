@@ -16,4 +16,5 @@ if status is-interactive
     alias wlan="networkmanager_dmenu"
     alias v="nvim"
     alias sxs="sudo xampp start"
+    alias sp="spotifyctl"
 end
