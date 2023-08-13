@@ -21,27 +21,18 @@
     Ctrl + PrtScrn = Clipboard Full Screen
     Ctrl + Shift + PrtScrn = Clipboard Selection
     Ctrl + Super + PrtScrn = Clipboard Active Window
--
 - Shell
   - [Fish shell](https://fishshell.com/)
   - [Fisher](https://github.com/jorgebucaran/fisher) - Plugin manager
-  - [Tide](https://github.com/IlanCosman/tide) - Shell theme
+  - [Oh my fish](https://github.com/oh-my-fish/oh-my-fish) - The Fishshell Framework
   - [Nerd fonts](https://github.com/ryanoasis/nerd-fonts) - (Hack)
   - [z for fish](https://github.com/jethrokuan/z) - Directory jumping
   - [Gogh](https://gogh-co.github.io/Gogh/) - Color Scheme (Breath Silverfox)
-  - alias: <pre>g = git
-    gf= git fetch
-    gp= git pull
-    ga= git add
-    gst= git status
-    gci= git commit
-    gcim= git commit -am
-    gco= git checkout
-    gbr= git branch
-    gps= git push
+  - [Lazygit](https://github.com/jesseduffield/lazygit) - Terminal-Based Git GUI
 - Text Editor
   - [VSCodium](https://vscodium.com/)
   - [Neovim](https://neovim.io/) - ([Lazyvim](https://www.lazyvim.org/))
     custom plugin: <pre>[wakatime/vim-wakatime](https://github.com/wakatime/vim-wakatime) - Plugin wakatime.
     [barrett-ruth/live-server.nvim](https://github.com/barrett-ruth/live-server.nvim) - Live server for vim
-    [mattn/emmet-vim](https://github.com/mattn/emmet-vim) - Emmet html & css
+    [iamcco/markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim) - Markdown live preview
+    [christoomey/vim-system-copy](https://github.com/christoomey/vim-system-copy) - Copying text from Vim to clipboard
