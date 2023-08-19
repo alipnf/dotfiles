@@ -6,7 +6,7 @@
     "margin-right": 10,
     "spacing": 5, // Gaps between modules (4px)
     "modules-left": ["wlr/workspaces", "cpu", "memory", "battery"],
-    "modules-center": ["clock"],
+    "modules-center": ["custom/spotify", "clock"],
     "modules-right": ["network", "pulseaudio", "custom/powermenu"],
     "wlr/workspaces": {
       "format": "{icon}",
@@ -104,5 +104,12 @@
       "tooltip": false,
       "on-click": "exec ~/.scripts/powermenu.sh",
     },
+
+    "custom/spotify": {
+      "format": " {}",
+      "exec": "~/.scripts/waybar-spotify.sh",
+      "return-type": "json",
+      "on-click": "playerctl -p spotify play-pause",
+   },
 }
 

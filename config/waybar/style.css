@@ -115,6 +115,13 @@ window#waybar.hidden {
   background-color: #212b30;
 }
 
+#custom-spotify {
+  border-radius: 20px;
+  color: #26a65b;
+  padding: 0px 15px;
+  background-color: #212b30;
+}
+
 #custom-launcher {
   background-color: #212b30;
   color: #6a92d7;
