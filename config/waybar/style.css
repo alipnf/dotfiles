@@ -88,35 +88,35 @@ window#waybar.hidden {
   color: #e5e5e5;
   /* color: #bf616a; */
   border-radius: 20px;
-  background-color: #212B30;
+  background-color: #212b30;
 }
 
 #window,
 #workspaces {
   border-radius: 20px;
   padding: 0px 10px;
-  background-color: #212B30;
+  background-color: #212b30;
 }
 
 #cpu {
   color: #fb958b;
-  background-color: #212B30;
+  background-color: #212b30;
 }
 
 #memory {
   color: #ebcb8b;
-  background-color: #212B30;
+  background-color: #212b30;
 }
 
-#custom-power-menu {
-  border-radius: 9.5px;
-  background-color: #212B30;
-  border-radius: 7.5px;
-  padding: 0 0px;
+#custom-powermenu {
+  border-radius: 20px;
+  color: #e06c75;
+  padding: 0px 15px;
+  background-color: #212b30;
 }
 
 #custom-launcher {
-  background-color: #212B30;
+  background-color: #212b30;
   color: #6a92d7;
   border-radius: 7.5px;
   padding: 0 0px;

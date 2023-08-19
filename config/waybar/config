@@ -7,7 +7,7 @@
     "spacing": 5, // Gaps between modules (4px)
     "modules-left": ["wlr/workspaces", "cpu", "memory", "battery"],
     "modules-center": ["clock"],
-    "modules-right": ["pulseaudio", "network"],
+    "modules-right": ["network", "pulseaudio", "custom/powermenu"],
     "wlr/workspaces": {
       "format": "{icon}",
       "on-click": "activate",
@@ -50,9 +50,10 @@
         "on-click": "",
     },
     "network": {
-        "format-wifi": "直 {signalStrength}%",
+        "format-wifi": " {bandwidthDownBits}  {bandwidthUpBits} 直 {essid}",
         "format-ethernet": " wired",
         "format-disconnected": "睊",
+        "interval": 1,
     },
 
     "pulseaudio": {
@@ -73,7 +74,13 @@
     },
 
     "bluetooth": {
+        // "controller": "controller1", // specify the alias of the controller if there are more than 1 on the system
         "format": " {status}",
+        "format-disabled": "", // an empty format will hide the module
+        "format-connected": " {num_connections} connected",
+        "tooltip-format": "{controller_alias}\t{controller_address}",
+        "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}"
     },
 
     "battery": {
@@ -90,6 +97,12 @@
       "format-full": "  {capacity}%",
       "format-icons": [" ", " ", " ", " ", " "],
       "on-update": "~/.config/waybar/scripts/check_battery.sh",
+    },
+
+    "custom/powermenu": {
+      "format": "",
+      "tooltip": false,
+      "on-click": "exec ~/.scripts/powermenu.sh",
     },
 }
 
