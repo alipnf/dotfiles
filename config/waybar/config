@@ -1,9 +1,9 @@
 {
     "height": 34, // Waybar height (to be removed for auto height)
     "margin-top": 10,
-    "margin-left": 10,
-    "margin-bottom": 0,
-    "margin-right": 10,
+    "margin-left": 15,
+    "margin-bottom": -10,
+    "margin-right": 15,
     "spacing": 5, // Gaps between modules (4px)
     "modules-left": ["wlr/workspaces", "cpu", "memory", "battery"],
     "modules-center": ["custom/spotify", "clock"],
