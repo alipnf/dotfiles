@@ -54,6 +54,7 @@
         "format-ethernet": " wired",
         "format-disconnected": "睊",
         "interval": 1,
+        "on-click": "exec ~/.scripts/rofi-wifi-menu.sh"
     },
 
     "pulseaudio": {
