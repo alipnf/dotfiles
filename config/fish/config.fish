@@ -18,3 +18,5 @@ if status is-interactive
     alias sxs="sudo xampp start"
     alias sp="spotifyctl"
 end
+
+starship init fish | source
