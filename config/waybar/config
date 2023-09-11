@@ -5,11 +5,13 @@
     "margin-bottom": -10,
     "margin-right": 15,
     "spacing": 5, // Gaps between modules (4px)
-    "modules-left": ["wlr/workspaces", "cpu", "memory", "battery"],
+    "modules-left": ["hyprland/workspaces", "cpu", "memory", "battery"],
     "modules-center": ["custom/spotify", "clock"],
     "modules-right": ["network", "pulseaudio", "custom/powermenu"],
-    "wlr/workspaces": {
-      "format": "{icon}",
+    "hyprland/workspaces": {
+     "format": "{icon}",
+     "on-scroll-up": "hyprctl dispatch workspace e+1",
+     "on-scroll-down": "hyprctl dispatch workspace e-1",
       "on-click": "activate",
       "format-icons": {
         "1": "",
