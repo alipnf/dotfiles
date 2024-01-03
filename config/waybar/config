@@ -35,7 +35,7 @@
     },
     "cpu": {
       "interval": 1,
-      "format": " {usage}%",
+      "format": " {usage}%",
       "max-length": 100,
       "on-click": "",
     },
@@ -52,9 +52,9 @@
         "on-click": "",
     },
     "network": {
-        "format-wifi": " {bandwidthDownBits}  {bandwidthUpBits} 直 {essid}",
+        "format-wifi": " {bandwidthDownBits}  {bandwidthUpBits}  {essid}",
         "format-ethernet": " wired",
-        "format-disconnected": "睊",
+        "format-disconnected": "󱚼",
         "interval": 1,
         "on-click": "exec ~/.scripts/rofi-wifi-menu.sh"
     },
@@ -62,8 +62,8 @@
     "pulseaudio": {
         "format": "{icon} {volume}%",
         "format-bluetooth": "  {volume}%",
-        "format-bluetooth-muted": "婢 ",
-        "format-muted": "婢",
+        "format-bluetooth-muted": "󰂲",
+        "format-muted": "󰂲",
         "format-icons": {
             "headphone": "",
             "hands-free": "",
@@ -94,7 +94,7 @@
       "format": "{icon} {capacity}%",
       "format-warning": "{icon} {capacity}%",
       "format-critical": "{icon} {capacity}%",
-      "format-charging": "<span font-family='Font Awesome 6 Free'></span> {capacity}%",
+      "format-charging": "<span font-family='JetBrainsMono Nerd Font'></span> {capacity}%",
       "format-plugged": "  {capacity}%",
       "format-alt": "{icon} {time}",
       "format-full": "  {capacity}%",
