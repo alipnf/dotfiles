@@ -27,7 +27,6 @@ device-mapper
 dex
 dhclient
 diffutils
-discord
 dmenu
 dmidecode
 dmraid
@@ -253,7 +252,7 @@ woff-fira-code
 wpa_supplicant
 xampp
 xbindkeys
-xdg-desktop-portal-hyprland
+xdg-desktop-portal-hyprland-git
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
