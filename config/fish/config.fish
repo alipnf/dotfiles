@@ -18,6 +18,7 @@ if status is-interactive
     alias sxs="sudo xampp start"
     alias sp="spotifyctl"
     alias pkglist="pacman -Qqe > package_list.txt"
+    alias t="tmux"
 end
 
 starship init fish | source
