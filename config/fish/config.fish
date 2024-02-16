@@ -17,6 +17,7 @@ if status is-interactive
     alias v="nvim"
     alias sxs="sudo xampp start"
     alias sp="spotifyctl"
+    alias pkglist="pacman -Qqe > pakage_list.txt"
 end
 
 starship init fish | source
