@@ -172,7 +172,6 @@ pkgfile
 playerctl
 pnpm
 polkit-gnome
-polybar
 poppler-glib
 power-profiles-daemon
 ps_mem
