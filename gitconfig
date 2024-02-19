@@ -1,0 +1,12 @@
+[core]
+	editor = nvim
+[user]
+	email = alipnf@proton.me
+	name = alipnf
+	signingkey = 14C5DDABE85D6F02
+[commit]
+	gpgSign = true
+[tag]
+	gpgSign = true
+[credential]
+	helper = store
