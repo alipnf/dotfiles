@@ -23,6 +23,7 @@ cantarell-fonts
 cliphist
 composer
 cryptsetup
+dbus-c++
 device-mapper
 dex
 dhclient
@@ -70,6 +71,8 @@ fish
 font-manager
 fsarchiver
 galculator
+geminicommit-bin
+github-cli
 glances
 gnome-shell-pomodoro
 goverlay
@@ -251,7 +254,7 @@ woff-fira-code
 wpa_supplicant
 xampp
 xbindkeys
-xdg-desktop-portal-hyprland-git
+xdg-desktop-portal-hyprland
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
