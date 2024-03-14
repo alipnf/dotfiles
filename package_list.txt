@@ -4,6 +4,7 @@ alsa-firmware
 alsa-plugins
 alsa-utils
 amd-ucode
+android-studio
 arandr
 arc-gtk-theme-eos
 archlinux-xdg-menu
@@ -117,6 +118,7 @@ libdvdcss
 libgsf
 libkeybinder2
 libopenraw
+libreoffice-still
 libwnck3
 lightdm
 lightdm-slick-greeter
@@ -152,6 +154,8 @@ networkmanager-openconnect
 networkmanager-openvpn
 nfs-utils
 nilfs-utils
+nodejs
+notion-app-nativefier
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
@@ -195,6 +199,7 @@ reflector-simple
 reiserfsprogs
 replay-sorcery
 rofi
+rofi-bluetooth-git
 rsync
 rtkit
 s-nail
@@ -204,6 +209,7 @@ scrot
 sddm
 sddm-sugar-dark
 sg3_utils
+silicon
 smartmontools
 sof-firmware
 spotify
