@@ -212,6 +212,7 @@ sg3_utils
 silicon
 smartmontools
 sof-firmware
+speedtest-cli
 spotify
 steam
 sudo
