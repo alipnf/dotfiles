@@ -22,6 +22,7 @@ bluez-utils
 brightnessctl
 btrfs-progs
 cantarell-fonts
+clang16
 cliphist
 composer
 cryptsetup
@@ -58,6 +59,7 @@ eos-rankmirrors
 eos-sddm-theme
 eos-settings-i3wm
 eos-update-notifier
+esbuild
 ethtool
 exfatprogs
 eza
@@ -77,6 +79,7 @@ geminicommit-bin
 github-cli
 glances
 gnome-shell-pomodoro
+go
 goverlay
 gst-libav
 gst-plugin-pipewire
@@ -116,6 +119,7 @@ lazygit
 less
 libdvdcss
 libgsf
+libiconv
 libkeybinder2
 libopenraw
 libreoffice-still
@@ -125,6 +129,8 @@ lightdm-slick-greeter
 linux
 linux-firmware
 linux-headers
+lld16
+llvm16
 logrotate
 lsb-release
 lsscsi
@@ -138,6 +144,7 @@ mdadm
 meld
 mesa-demos
 mesa-utils
+mimalloc
 mlocate
 modemmanager
 mpv
@@ -202,6 +209,7 @@ rofi
 rofi-bluetooth-git
 rsync
 rtkit
+ruby
 s-nail
 scrcpy
 screenfetch
