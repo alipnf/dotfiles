@@ -183,8 +183,10 @@ otf-monaspace-nerd
 pacman-contrib
 parole
 pavucontrol
+pcsx2
 perl
 perl-file-mimeinfo
+persepolis
 php
 pipewire-alsa
 pipewire-jack
@@ -274,10 +276,10 @@ waydroid
 webcord
 welcome
 wget
+whatsapp-for-linux
 which
 wireplumber
 woff-fira-code
-wofi
 wpa_supplicant
 xampp
 xbindkeys
