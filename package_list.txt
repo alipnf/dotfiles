@@ -64,7 +64,6 @@ eos-update-notifier
 esbuild
 ethtool
 exfatprogs
-exo
 eza
 f2fs-tools
 fastfetch
@@ -116,6 +115,7 @@ inxi
 iptables-nft
 iwd
 jfsutils
+jq
 jre8-openjdk
 kernel-install-for-dracut
 kitty
@@ -194,7 +194,7 @@ pipewire-pulse
 pkgfile
 playerctl
 pnpm
-polybar-themes-git
+polkit-gnome
 poppler-glib
 power-profiles-daemon
 ps_mem
@@ -218,7 +218,6 @@ rofi-bluetooth-git
 rofi-wayland
 rsync
 rtkit
-ruby
 s-nail
 scrcpy
 screenfetch
@@ -226,6 +225,7 @@ scrot
 sddm
 sddm-sugar-dark
 sg3_utils
+shaderc-non-semantic-debug
 silicon
 smartmontools
 sof-firmware
@@ -282,6 +282,7 @@ wireplumber
 woff-fira-code
 wpa_supplicant
 xampp
+xarchiver
 xbindkeys
 xdg-desktop-portal-hyprland
 xdg-user-dirs
@@ -310,7 +311,6 @@ xfce4-wavelan-plugin
 xfce4-weather-plugin
 xfce4-whiskermenu-plugin
 xfce4-xkb-plugin
-xfconf
 xfdesktop
 xfsprogs
 xfwm4
@@ -327,5 +327,6 @@ xorg-xrandr
 xterm
 yarn
 yay
+zip
 zoom
 zram-generator
