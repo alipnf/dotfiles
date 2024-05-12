@@ -177,6 +177,7 @@ ntfs-3g
 ntp
 numlockx
 obs-studio
+openjdk-src
 openssh
 otf-font-awesome
 otf-monaspace-nerd
