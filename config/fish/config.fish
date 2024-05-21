@@ -14,7 +14,12 @@ alias gco="git checkout"
 alias gbr="git branch"
 alias gps="git push"
 alias code="codium"
-alias ll="exa --long --header -a"
+alias ld="eza -lD"
+alias lf="eza -lf --color=always | grep -v /"
+alias lh="eza -dl .* --group-directories-first"
+alias ll="eza -al --group-directories-first"
+alias ls="eza -alf --color=always --sort=size | grep -v /"
+alias lt="eza -al --sort=modified"
 alias bl="sudo systemctl enable bluetooth.service"
 alias wlan="networkmanager_dmenu"
 alias v="nvim"
@@ -32,6 +37,6 @@ set --export PATH $BUN_INSTALL/bin $PATH
 # pnpm
 set -gx PNPM_HOME "/home/alipnf/.local/share/pnpm"
 if not string match -q -- $PNPM_HOME $PATH
-  set -gx PATH "$PNPM_HOME" $PATH
+    set -gx PATH "$PNPM_HOME" $PATH
 end
 # pnpm end
