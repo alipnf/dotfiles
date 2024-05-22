@@ -43,6 +43,7 @@ dpkg
 dracut
 duf
 dunst
+dust
 e2fsprogs
 efibootmgr
 efitools
