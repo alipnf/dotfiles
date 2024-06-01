@@ -16,7 +16,6 @@ base-devel
 bash-completion
 bind
 binder_linux-dkms
-bitwarden
 blueberry
 blueman
 bluez
