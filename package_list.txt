@@ -104,6 +104,7 @@ htop
 hwdetect
 hwinfo
 hyprland
+hyprlock-git
 hyprpaper
 hyprshot
 i3-wm
