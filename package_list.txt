@@ -21,6 +21,7 @@ blueman
 bluez
 bluez-utils
 brightnessctl
+btop
 btrfs-progs
 cantarell-fonts
 clang16
