@@ -278,6 +278,7 @@ upower
 usb_modeswitch
 usbutils
 uwufetch
+v4l2loopback-dkms
 vi
 vkbasalt
 vulkan-radeon
@@ -338,6 +339,7 @@ xorg-xrandr
 xterm
 yarn
 yay
+zed
 zip
 zoom
 zram-generator
