@@ -141,6 +141,7 @@ llvm16
 logrotate
 lsb-release
 lsscsi
+luarocks
 lvm2
 lxappearance-gtk3
 lzip
