@@ -10,8 +10,6 @@ require("lazy").setup({
   spec = {
     -- add LazyVim and import its plugins
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
-    -- editor
-    { import = "lazyvim.plugins.extras.editor.inc-rename" },
     -- formating
     { import = "lazyvim.plugins.extras.formatting.prettier" },
     -- lang
