@@ -159,6 +159,7 @@ mlocate
 modemmanager
 mousepad
 mpv
+mpvpaper
 mtools
 nano
 nano-syntax-highlighting
@@ -243,6 +244,7 @@ spotify
 steam
 sudo
 swaylock-effects-git
+swww
 sysfsutils
 sysstat
 systemd-sysvcompat
@@ -290,6 +292,7 @@ vulkan-tools
 waybar
 wayclip-git
 waydroid
+waypaper-git
 webcord
 welcome
 wget
