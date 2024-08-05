@@ -57,6 +57,7 @@ fish
 fsarchiver
 fwupd
 git
+github-cli
 glances
 gnome-shell-pomodoro
 gst-libav
