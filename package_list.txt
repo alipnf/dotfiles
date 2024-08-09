@@ -184,6 +184,7 @@ s-nail
 sddm-kcm
 sg3_utils
 showmethekey
+silicon
 smartmontools
 sof-firmware
 spectacle
@@ -225,6 +226,8 @@ welcome
 wget
 which
 wireplumber
+wlr-randr
+wmctrl
 wpa_supplicant
 xdg-desktop-portal-hyprland-git
 xdg-desktop-portal-kde
@@ -246,4 +249,5 @@ xterm
 xwaylandvideobridge
 yay
 z
+zoom
 zram-generator
