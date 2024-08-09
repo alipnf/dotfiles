@@ -7,3 +7,5 @@ local map = LazyVim.safe_keymap_set
 map("n", "<Leader>ic", "<cmd>IconPickerNormal<cr>", { noremap = true, silent = true })
 map("n", "<Leader>iy", "<cmd>IconPickerYank<cr>", { noremap = true, silent = true })
 map("i", "<C-c>", "<cmd>IconPickerInsert<cr>", { noremap = true, silent = true })
+-- silicon
+map("v", "<Leader>S", "<cmd>'<,'>Silicon<cr>", { noremap = true, silent = true, desc = "Silicon" })
