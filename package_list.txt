@@ -11,6 +11,7 @@ base-devel
 bash-completion
 bind
 bluedevil
+blueman
 bluez
 bluez-utils
 breeze-gtk
@@ -46,6 +47,7 @@ eos-quickstart
 eos-rankmirrors
 eos-settings-plasma
 ethtool
+evtest
 exfatprogs
 eza
 f2fs-tools
@@ -134,6 +136,7 @@ networkmanager-openconnect
 networkmanager-openvpn
 nfs-utils
 nilfs-utils
+notion-app
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
