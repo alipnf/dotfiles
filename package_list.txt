@@ -136,7 +136,6 @@ networkmanager-openconnect
 networkmanager-openvpn
 nfs-utils
 nilfs-utils
-notion-app
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
@@ -184,6 +183,7 @@ rofi-wayland
 rsync
 rtkit
 s-nail
+scrcpy
 sddm-kcm
 sg3_utils
 showmethekey
@@ -222,6 +222,7 @@ upower
 usb_modeswitch
 usbutils
 vi
+vulkan-radeon
 waybar
 wayclip
 webcord
@@ -252,5 +253,6 @@ xterm
 xwaylandvideobridge
 yay
 z
+zed
 zoom
 zram-generator
