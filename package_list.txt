@@ -191,6 +191,7 @@ silicon
 smartmontools
 sof-firmware
 spectacle
+steam
 sudo
 sysfsutils
 systemd-sysvcompat
