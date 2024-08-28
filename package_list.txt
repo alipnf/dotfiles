@@ -33,6 +33,7 @@ dracut
 duf
 dunst
 e2fsprogs
+easyeffects
 efibootmgr
 efitools
 endeavouros-keyring
