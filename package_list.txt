@@ -3,6 +3,7 @@ alsa-firmware
 alsa-plugins
 alsa-utils
 amd-ucode
+android-studio
 ark
 aspell
 b43-fwcutter
@@ -224,6 +225,7 @@ upower
 usb_modeswitch
 usbutils
 vi
+vscodium-bin
 vulkan-radeon
 waybar
 wayclip
