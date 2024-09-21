@@ -28,6 +28,7 @@ alias pkglist="pacman -Qqe > package_list.txt"
 alias t="tmux"
 
 starship init fish | source
+zoxide init fish | source
 
 # bun
 set --export BUN_INSTALL "$HOME/.bun"
