@@ -53,6 +53,7 @@ evtest
 exfatprogs
 eza
 f2fs-tools
+feh
 ffmpegthumbnailer
 ffmpegthumbs
 firefox
@@ -105,10 +106,12 @@ kwallet-pam
 kwayland-integration
 lazygit
 less
+lf
 libappindicator-gtk3
 libdvdcss
 libgsf
 libopenraw
+libreoffice-still-oc
 libwnck3
 linux
 linux-firmware
@@ -124,7 +127,6 @@ man-pages
 mdadm
 meld
 mesa-utils
-mlocate
 modemmanager
 mtools
 nano
@@ -166,6 +168,7 @@ plasma-nm
 plasma-pa
 plasma-systemmonitor
 plasma-workspace
+plocate
 poppler-glib
 power-profiles-daemon
 powerdevil
@@ -200,6 +203,7 @@ systemd-sysvcompat
 texinfo
 tldr
 tmux
+tree
 ttf-bitstream-vera
 ttf-cascadia-code-nerd
 ttf-cascadia-mono-nerd
