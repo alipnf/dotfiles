@@ -37,18 +37,9 @@ cmd unarchive ${{
 }}
 
 # Trash bindings
-cmd trash ${{
-  files=$(printf "$fx" | tr '\n' ';')
-  while [ "$files" ]; do
-    file=${files%%;*}
-
-    trashy put "$(basename "$file")"
-    if [ "$files" = "$file" ]; then
-      files=''
-    else
-      files="${files#*;}"
-    fi
-  done
+cmd trash %{{
+	mapfile -t files <<< "$fx"
+	trash-put "${files[@]}"
 }}
 
 cmd open &{{
@@ -114,9 +105,9 @@ map au unarchive
 map . set hidden!
 map DD delete
 map dd trash
-map u $trashy restore -r 0
-map dr $trashy restore
-map de $trashy empty --all
+map dr $trash-restore
+map de $trash-empty --all
+map dl $trash-list
 map p paste
 map x cut
 map y copy
