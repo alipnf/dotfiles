@@ -21,6 +21,7 @@ btop
 btrfs-progs
 cantarell-fonts
 cryptsetup
+ctpv
 device-mapper
 diffutils
 dmidecode
@@ -65,6 +66,7 @@ git
 github-cli
 glances
 gnome-shell-pomodoro
+graphicsmagick
 gst-libav
 gst-plugin-pipewire
 gst-plugins-bad
@@ -223,6 +225,7 @@ ttf-nerd-fonts-symbols
 ttf-nerd-fonts-symbols-mono
 ttf-opensans
 ttf-terminus-nerd
+ueberzug
 unrar
 unzip
 upower
@@ -260,7 +263,8 @@ xsettingsd
 xterm
 xwaylandvideobridge
 yay
-z
 zed
 zoom
+zoxide
 zram-generator
+zsh
