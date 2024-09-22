@@ -20,6 +20,7 @@ brightnessctl
 btop
 btrfs-progs
 cantarell-fonts
+chafa
 cryptsetup
 ctpv
 device-mapper
@@ -234,6 +235,7 @@ usbutils
 vi
 vscodium-bin
 vulkan-radeon
+w3m
 waybar
 wayclip
 webcord
