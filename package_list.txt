@@ -57,6 +57,7 @@ exfatprogs
 eza
 f2fs-tools
 feh
+ffmpeg
 ffmpegthumbnailer
 ffmpegthumbs
 firefox
@@ -153,7 +154,7 @@ npm
 nss-mdns
 ntfs-3g
 ntp
-obs-studio-tytan652
+obs-studio
 okular
 openssh
 otf-monaspace-nerd
