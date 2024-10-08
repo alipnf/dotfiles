@@ -57,7 +57,6 @@ exfatprogs
 eza
 f2fs-tools
 feh
-ffmpeg
 ffmpegthumbnailer
 ffmpegthumbs
 firefox
