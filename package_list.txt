@@ -267,7 +267,6 @@ xsettingsd
 xterm
 xwaylandvideobridge
 yay
-zed
 zoom
 zoxide
 zram-generator
