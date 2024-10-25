@@ -6,6 +6,7 @@ amd-ucode
 android-studio
 ark
 aspell
+audiorelay
 b43-fwcutter
 base
 base-devel
@@ -64,10 +65,12 @@ firewalld
 fish
 fsarchiver
 fwupd
+geminicommit-bin
 git
 github-cli
 glances
 glow
+gnome-boxes
 gnome-shell-pomodoro
 graphicsmagick
 gst-libav
@@ -78,6 +81,8 @@ gwenview
 haruna
 haveged
 hdparm
+htop
+httpie
 hwdetect
 hwinfo
 hyprland
@@ -88,6 +93,7 @@ inetutils
 inxi
 iptables-nft
 iwd
+jdk21-openjdk
 jfsutils
 kate
 kcalc
@@ -117,6 +123,8 @@ libdvdcss
 libgsf
 libopenraw
 libreoffice-still-oc
+libva-mesa-driver
+libva-utils
 libwnck3
 linux
 linux-firmware
@@ -132,6 +140,7 @@ man-pages
 mdadm
 meld
 mesa-utils
+mesa-vdpau
 modemmanager
 mtools
 nano
@@ -145,6 +154,7 @@ networkmanager-openconnect
 networkmanager-openvpn
 nfs-utils
 nilfs-utils
+noisetorch
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
@@ -175,6 +185,7 @@ plasma-systemmonitor
 plasma-workspace
 plocate
 poppler-glib
+postman-bin
 power-profiles-daemon
 powerdevil
 print-manager
