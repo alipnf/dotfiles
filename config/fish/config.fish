@@ -26,6 +26,7 @@ alias sxs="sudo xampp start"
 alias sp="spotifyctl"
 alias pkglist="pacman -Qqe > package_list.txt"
 alias t="tmux"
+alias yz="yazi"
 
 starship init fish | source
 zoxide init fish | source
