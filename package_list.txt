@@ -65,6 +65,7 @@ firewalld
 fish
 font-manager
 galculator
+geminicommit-bin
 git
 github-cli
 glances
@@ -126,9 +127,9 @@ mpv
 mtools
 nano
 nano-syntax-highlighting
+neofetch
 neovim
 netctl
-network-manager-applet
 networkmanager
 networkmanager-openconnect
 networkmanager-openvpn
@@ -158,6 +159,7 @@ pnpm
 polkit-gnome
 polybar
 poppler-glib
+postman9-bin
 power-profiles-daemon
 pv
 python
