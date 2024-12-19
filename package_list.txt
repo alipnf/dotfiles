@@ -40,9 +40,9 @@ e2fsprogs
 easyeffects
 efibootmgr
 efitools
+endeavouros-branding
 endeavouros-keyring
 endeavouros-mirrorlist
-endeavouros-theming
 endeavouros-xfce4-terminal-colors
 eos-apps-info
 eos-hooks
@@ -106,6 +106,7 @@ less
 libdvdcss
 libgsf
 libopenraw
+libreoffice-still
 libwnck3
 lightdm
 lightdm-slick-greeter
@@ -145,6 +146,7 @@ ntfs-3g
 ntp
 numlockx
 nwg-look
+obs-studio
 openssh
 pacman-contrib
 pavucontrol
@@ -176,6 +178,7 @@ rofi
 rsync
 rtkit
 s-nail
+scrcpy
 scrot
 sddm
 sg3_utils
@@ -229,6 +232,7 @@ wireplumber
 wpa_supplicant
 xarchiver
 xbindkeys
+xdg-desktop-portal-hyprland
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
