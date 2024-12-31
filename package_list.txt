@@ -14,6 +14,7 @@ base
 base-devel
 bash-completion
 bind
+binder_linux-dkms
 blueman
 bluez
 bluez-utils
@@ -23,6 +24,7 @@ btrfs-progs
 cantarell-fonts
 clipman
 cryptsetup
+deskreen
 device-mapper
 dex
 diffutils
@@ -103,6 +105,7 @@ kernel-install-for-dracut
 kitty
 lazygit
 less
+lib32-vulkan-radeon
 libdvdcss
 libgsf
 libopenraw
@@ -185,6 +188,7 @@ sg3_utils
 silicon
 smartmontools
 sof-firmware
+steam
 sudo
 sysfsutils
 sysstat
@@ -223,7 +227,9 @@ upower
 usb_modeswitch
 usbutils
 vi
+vulkan-radeon
 waybar
+waydroid
 webcord
 welcome
 wget
