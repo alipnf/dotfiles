@@ -37,7 +37,6 @@ downgrade
 dracut
 duf
 dunst
-dwm
 e2fsprogs
 easyeffects
 efibootmgr
@@ -158,6 +157,7 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 pkgfile
+plasma-desktop
 playerctl
 plocate
 pnpm
