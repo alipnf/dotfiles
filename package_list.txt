@@ -41,6 +41,7 @@ e2fsprogs
 easyeffects
 efibootmgr
 efitools
+electron30
 endeavouros-branding
 endeavouros-keyring
 endeavouros-mirrorlist
@@ -119,9 +120,11 @@ logrotate
 lsb-release
 lsp-plugins
 lsscsi
+luarocks
 lvm2
 man-db
 man-pages
+mariadb
 mdadm
 meld
 mesa-utils
@@ -130,6 +133,7 @@ mpv
 mtools
 nano
 nano-syntax-highlighting
+ncdu
 neofetch
 neovim
 netctl
@@ -138,6 +142,8 @@ networkmanager-openconnect
 networkmanager-openvpn
 nfs-utils
 nilfs-utils
+nodejs
+notion-app-electron
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
@@ -164,6 +170,7 @@ pnpm
 polkit-gnome
 polybar
 poppler-glib
+posting
 postman9-bin
 power-profiles-daemon
 pv
@@ -185,9 +192,12 @@ scrcpy
 scrot
 sddm
 sg3_utils
+showmethekey
 silicon
 smartmontools
 sof-firmware
+solanum
+spotify
 steam
 sudo
 sysfsutils
@@ -234,11 +244,13 @@ webcord
 welcome
 wget
 which
+wine
 wireplumber
 wpa_supplicant
 xarchiver
 xbindkeys
 xdg-desktop-portal-hyprland
+xdg-desktop-portal-wlr
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
