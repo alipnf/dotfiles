@@ -240,6 +240,7 @@ vi
 vulkan-radeon
 waybar
 waydroid
+waypaper
 webcord
 welcome
 wget
