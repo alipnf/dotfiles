@@ -41,7 +41,6 @@ e2fsprogs
 easyeffects
 efibootmgr
 efitools
-electron30
 endeavouros-branding
 endeavouros-keyring
 endeavouros-mirrorlist
@@ -155,6 +154,7 @@ ntp
 numlockx
 nwg-look
 obs-studio
+obsidian
 openssh
 pacman-contrib
 pavucontrol
