@@ -7,3 +7,4 @@ vim.opt.smartindent = true
 vim.opt.backup = false
 vim.opt.path:append({ "**" })
 vim.opt.wildignore:append({ "*/node_modules/*" })
+vim.g.lazyvim_prettier_needs_config = true
