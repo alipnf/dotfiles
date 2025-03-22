@@ -24,10 +24,10 @@ btrfs-progs
 cantarell-fonts
 clipman
 cryptsetup
-deskreen
 device-mapper
 dex
 diffutils
+discord
 dmenu
 dmidecode
 dmraid
@@ -65,6 +65,7 @@ firefox
 firewalld
 fish
 font-manager
+freemind-git
 galculator
 geminicommit-bin
 git
@@ -129,6 +130,7 @@ meld
 mesa-utils
 modemmanager
 mpv
+mpvpaper
 mtools
 nano
 nano-syntax-highlighting
@@ -241,7 +243,6 @@ vulkan-radeon
 waybar
 waydroid
 waypaper
-webcord
 welcome
 wget
 which
