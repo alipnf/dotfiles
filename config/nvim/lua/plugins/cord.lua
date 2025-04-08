@@ -3,13 +3,13 @@ return {
   event = "VeryLazy",
   enabled = true,
   opts = {
-    editor = {
-      client = "1182300039712870430", -- Custom Discord Application ID untuk Valorant
-      tooltip = "Playing Valorant",
-    },
+    -- editor = {
+    --   client = "1182300039712870430", -- Custom Discord Application ID untuk Valorant
+    --   tooltip = "Playing Valorant",
+    -- },
     text = {
       workspace = function(opts)
-        return "In Game" -- Menyembunyikan nama workspace
+        return "In Ngodading/" -- Menyembunyikan nama workspace
       end,
       viewing = function(opts)
         -- Hanya menampilkan ekstensi file
