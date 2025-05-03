@@ -1,113 +1,115 @@
 {
-    "height": 34, // Waybar height (to be removed for auto height)
-    "margin-top": 10,
-    "margin-left": 15,
-    "margin-bottom": -10,
-    "margin-right": 15,
-    "spacing": 5, // Gaps between modules (4px)
-    "modules-left": ["hyprland/workspaces", "cpu", "memory", "battery"],
-    "modules-center": ["custom/spotify", "clock"],
-    "modules-right": ["network", "pulseaudio", "custom/powermenu"],
-    "hyprland/workspaces": {
-     "format": "{icon}",
-     "on-scroll-up": "hyprctl dispatch workspace e+1",
-     "on-scroll-down": "hyprctl dispatch workspace e-1",
-      "on-click": "activate",
-      "format-icons": {
-        "urgent": "",
-        "active": "",
-        "default": ""
-      }
+  "height": 34,
+  "margin-top": 10,
+  "margin-left": 15,
+  "margin-bottom": -10,
+  "margin-right": 15,
+  "spacing": 5,
+  "modules-left": [
+    "hyprland/workspaces",
+    "cpu",
+    "memory",
+    "battery"
+  ],
+  "modules-center": [
+    "custom/spotify",
+    "clock"
+  ],
+  "modules-right": [
+    "network",
+    "pulseaudio",
+    "custom/powermenu"
+  ],
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "on-scroll-up": "hyprctl dispatch workspace e+1",
+    "on-scroll-down": "hyprctl dispatch workspace e-1",
+    "on-click": "activate",
+    "format-icons": {
+      "urgent": "",
+      "active": "",
+      "default": ""
+    }
+  },
+  "clock": {
+    "format": "<span color='#bf616a'> </span>{:%a, %d %b, %I:%M %p}"
+  },
+  "cpu": {
+    "interval": 1,
+    "format": " {usage}%",
+    "max-length": 100
+  },
+  "memory": {
+    "interval": 30,
+    "format": " {}%",
+    "format-alt": " {used:0.1f}G",
+    "max-length": 10
+  },
+  "battery": {
+    "states": {
+      "warning": 30,
+      "critical": 15
     },
-    "hyprland/window": {
-        "format": "{}"
+    "format": "{icon} {capacity}%",
+    "format-warning": "{icon} {capacity}%",
+    "format-critical": "{icon} {capacity}%",
+    "format-charging": "<span font-family='JetBrainsMono Nerd Font'></span> {capacity}%",
+    "format-plugged": "  {capacity}%",
+    "format-alt": "{icon} {time}",
+    "format-full": "  {capacity}%",
+    "format-icons": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ],
+    "on-update": "~/.config/waybar/scripts/check_battery.sh"
+  },
+  "network": {
+    "format-wifi": " {bandwidthDownBits}  {bandwidthUpBits}  {essid}",
+    "format-ethernet": " wired",
+    "format-disconnected": "󱚼",
+    "interval": 1,
+    "on-click": "exec ~/.scripts/rofi-wifi-menu.sh"
+  },
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-bluetooth": "  {volume}%",
+    "format-bluetooth-muted": "󰂲",
+    "format-muted": "󰂲",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": [
+        "",
+        "",
+        ""
+      ]
     },
-    "tray": {
-        "spacing": 10
-    },
-    "clock": {
-        "format": "<span color='#bf616a'> </span>{:%a, %d %b, %I:%M %p}",
-    },
-    "cpu": {
-      "interval": 1,
-      "format": " {usage}%",
-      "max-length": 100,
-      "on-click": "",
-    },
-    "memory": {
-        "interval": 30,
-        "format": " {}%",
-        "format-alt":" {used:0.1f}G",
-        "max-length": 10,
-    },
-    "backlight": {
-        "device": "DP-1",
-        "format": "{icon} {percent}%",
-        "format-icons": ["", "", "", "", "", "", "", "", ""],
-        "on-click": "",
-    },
-    "network": {
-        "format-wifi": " {bandwidthDownBits}  {bandwidthUpBits}  {essid}",
-        "format-ethernet": " wired",
-        "format-disconnected": "󱚼",
-        "interval": 1,
-        "on-click": "exec ~/.scripts/rofi-wifi-menu.sh"
-    },
-
-    "pulseaudio": {
-        "format": "{icon} {volume}%",
-        "format-bluetooth": "  {volume}%",
-        "format-bluetooth-muted": "󰂲",
-        "format-muted": "󰂲",
-        "format-icons": {
-            "headphone": "",
-            "hands-free": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["", "", ""]
-        },
-        "on-click": "bluetoothctl connect FC:58:FA:42:3D:D8"
-    },
-
-    "bluetooth": {
-        // "controller": "controller1", // specify the alias of the controller if there are more than 1 on the system
-        "format": " {status}",
-        "format-disabled": "", // an empty format will hide the module
-        "format-connected": " {num_connections} connected",
-        "tooltip-format": "{controller_alias}\t{controller_address}",
-        "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
-        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}"
-    },
-
-    "battery": {
-      "states": {
-          "warning": 30,
-          "critical": 15
-      },
-      "format": "{icon} {capacity}%",
-      "format-warning": "{icon} {capacity}%",
-      "format-critical": "{icon} {capacity}%",
-      "format-charging": "<span font-family='JetBrainsMono Nerd Font'></span> {capacity}%",
-      "format-plugged": "  {capacity}%",
-      "format-alt": "{icon} {time}",
-      "format-full": "  {capacity}%",
-      "format-icons": [" ", " ", " ", " ", " "],
-      "on-update": "~/.config/waybar/scripts/check_battery.sh",
-    },
-
-    "custom/powermenu": {
-      "format": "",
-      "tooltip": false,
-      "on-click": "exec ~/.scripts/powermenu.sh",
-    },
-
-    "custom/spotify": {
-      "format": " {}",
-      "exec": "~/.scripts/waybar-spotify.sh",
-      "return-type": "json",
-      "on-click": "playerctl -p spotify play-pause",
-   },
+    "on-click": "bluetoothctl connect FC:58:FA:42:3D:D8"
+  },
+  "bluetooth": {
+    "format": " {status}",
+    "format-disabled": "",
+    "format-connected": " {num_connections} connected",
+    "tooltip-format": "{controller_alias}\t{controller_address}",
+    "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}"
+  },
+  "custom/powermenu": {
+    "format": "",
+    "tooltip": false,
+    "on-click": "exec ~/.scripts/powermenu.sh"
+  },
+  "custom/spotify": {
+    "format": " {}",
+    "exec": "~/.scripts/waybar-spotify.sh",
+    "return-type": "json",
+    "on-click": "playerctl -p spotify play-pause"
+  }
 }
-
