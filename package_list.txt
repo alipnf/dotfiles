@@ -11,6 +11,7 @@ base-devel
 bash-completion
 bind
 bluedevil
+blueman
 bluez
 bluez-utils
 breeze-gtk
@@ -19,6 +20,7 @@ btop
 btrfs-progs
 cantarell-fonts
 cryptsetup
+cursor-bin
 device-mapper
 diffutils
 discord
@@ -33,6 +35,7 @@ dracut
 duf
 dunst
 e2fsprogs
+easyeffects
 efibootmgr
 efitools
 endeavouros-branding
@@ -115,6 +118,7 @@ linux-headers
 logrotate
 lsb-release
 lsscsi
+luarocks
 lvm2
 maliit-keyboard
 man-db
@@ -188,8 +192,10 @@ sddm-kcm
 sg3_utils
 smartmontools
 sof-firmware
+solanum
 spectacle
 spotify
+steam
 sudo
 sysfsutils
 systemd-sysvcompat
@@ -217,6 +223,7 @@ wget
 which
 wireplumber
 wpa_supplicant
+xdg-desktop-portal-hyprland
 xdg-desktop-portal-kde
 xdg-user-dirs
 xdg-utils
