@@ -19,9 +19,11 @@ brightnessctl
 btop
 btrfs-progs
 cantarell-fonts
+composer
 cryptsetup
 cursor-bin
 device-mapper
+dhcpcd
 diffutils
 discord
 dmidecode
@@ -61,10 +63,11 @@ firefox
 firewalld
 fish
 fwupd
-geminicommit-bin
 git
 github-cli
 glances
+gnome-keyring
+go
 gst-libav
 gst-plugin-pipewire
 gst-plugins-bad
@@ -84,7 +87,10 @@ inetutils
 inxi
 iptables-nft
 iwd
+jdk8-openjdk
 jfsutils
+jre8-openjdk
+jre8-openjdk-headless
 kate
 kcalc
 kde-cli-tools
@@ -92,6 +98,7 @@ kde-gtk-config
 kdeconnect
 kdegraphics-thumbnailers
 kdenetwork-filesharing
+kdenlive
 kdeplasma-addons
 kernel-install-for-dracut
 kgamma
@@ -123,6 +130,7 @@ lvm2
 maliit-keyboard
 man-db
 man-pages
+mariadb
 mdadm
 meld
 mesa-utils
@@ -151,10 +159,13 @@ ntp
 obs-studio
 obsidian
 okular
+onlyoffice-bin
 openssh
 pacman-contrib
 pavucontrol
 perl
+php-gd
+php-sqlite
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
@@ -190,6 +201,7 @@ s-nail
 scrcpy
 sddm-kcm
 sg3_utils
+silicon
 smartmontools
 sof-firmware
 solanum
@@ -216,8 +228,10 @@ unzip
 upower
 usb_modeswitch
 usbutils
+uwufetch-git
 vi
 waybar
+waydroid
 welcome
 wget
 which
