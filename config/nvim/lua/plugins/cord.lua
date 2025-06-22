@@ -1,26 +1,21 @@
 return {
-  "vyfor/cord.nvim",
-  event = "VeryLazy",
-  enabled = true,
-  opts = {
-    -- editor = {
-    --   client = "1182300039712870430", -- Custom Discord Application ID untuk Valorant
-    --   tooltip = "Playing Valorant",
-    -- },
-    text = {
-      workspace = function(opts)
-        return "In Ngodading/" -- Menyembunyikan nama workspace
-      end,
-      viewing = function(opts)
-        -- Hanya menampilkan ekstensi file
-        local extension = vim.fn.fnamemodify(opts.filename, ":e")
-        return "Viewing *." .. extension
-      end,
-      editing = function(opts)
-        -- Hanya menampilkan ekstensi file
-        local extension = vim.fn.fnamemodify(opts.filename, ":e")
-        return "Editing *." .. extension
-      end,
+    "vyfor/cord.nvim",
+    event = "VeryLazy",
+    enabled = true,
+    opts = {
+        editor = {
+            -- client = "1182300039712870430", -- Custom Discord Application ID untuk Valorant
+            tooltip = "Lazyvim",
+        },
+        buttons = {
+            {
+                label = function(opts)
+                    return opts.repo_url and "View Repository" or "View Profile"
+                end,
+                url = function(opts)
+                    return opts.repo_url or "https://github.com/alipnf"
+                end,
+            },
+        },
     },
-  },
 }

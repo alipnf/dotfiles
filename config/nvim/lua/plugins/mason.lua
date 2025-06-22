@@ -8,6 +8,9 @@ return {
       "html-lsp",
       "css-lsp",
       "typescript-language-server",
+      "astro-language-server",
+      "eslint-lsp",
+      "emmet-ls",
     },
   },
 }
