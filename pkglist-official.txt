@@ -16,6 +16,7 @@ breeze-gtk
 brightnessctl
 btop
 btrfs-progs
+bun
 cantarell-fonts
 cryptsetup
 device-mapper
@@ -53,6 +54,7 @@ ex-vi-compat
 exfatprogs
 eza
 f2fs-tools
+fastfetch
 feh
 ffmpegthumbnailer
 ffmpegthumbs
@@ -196,6 +198,7 @@ sudo
 sysfsutils
 systemd-sysvcompat
 texinfo
+timeshift
 tldr
 tmux
 tree
