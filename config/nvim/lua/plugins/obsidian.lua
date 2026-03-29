@@ -1,6 +1,6 @@
 return {
   "epwalsh/obsidian.nvim",
-  version = "*", -- recommended, use latest release instead of latest commit
+  version = "*",
   lazy = true,
   ft = "markdown",
   dependencies = {
@@ -13,5 +13,15 @@ return {
         path = "/home/alipnf/alipnf-obsidian",
       },
     },
+
+    note_frontmatter_func = function(note)
+      return {
+        id = note.id,
+        aliases = note.aliases,
+        tags = note.tags,
+        author = "Alipnf",
+        created_at = os.date("%Y-%m-%d"),
+      }
+    end,
   },
 }
