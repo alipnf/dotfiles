@@ -1,3 +1,6 @@
+antigravity
+cursor-bin
+google-chrome
 postman-bin
 rcm
 spotify
