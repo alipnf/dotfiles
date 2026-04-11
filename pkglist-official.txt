@@ -87,7 +87,7 @@ hyprpaper
 hyprshot
 inetutils
 inxi
-iptables-nft
+iptables
 jfsutils
 kcalc
 kde-cli-tools
@@ -148,6 +148,7 @@ ntp
 obs-studio
 obsidian
 okular
+opencode
 openssh
 pacman-contrib
 partitionmanager
@@ -170,6 +171,7 @@ plasma-x11-session
 plocate
 pnpm
 poppler-glib
+postgresql
 power-profiles-daemon
 powerdevil
 print-manager

@@ -1,5 +1,6 @@
 antigravity
 cursor-bin
+dbeaver-ce-jre-bin
 google-chrome
 postman-bin
 rcm
